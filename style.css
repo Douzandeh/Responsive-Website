@@ -35,7 +35,28 @@ body{
 	color: rgba(255,255,255,0.92);
 	font-size: 14px;
 	font-weight: 500;
+	position: relative;
+}
 
+.nav-link::after{
+	content: '';
+	position: absolute;
+	bottom: -1px;
+	left: 0px;
+	background-color: rgba(255,129,57);
+	width: 0%;
+
+	height: 3px;
+	transition: 0.4s ease-in-out;
+}
+
+.nav-item:hover .nav-link::after{
+	width: 100%;
+
+}
+
+.nav-link:hover{
+	color: rgb(255,129,57);
 }
 
 .btn-navbar{
@@ -48,4 +69,74 @@ body{
 	font-size: 14px;
 	font-weight: 600;
 	background-color: rgba(36, 193, 255);
+	transition: 0.2s ease;
+}
+
+.btn-navbar:hover{
+	background-color: transparent;
+	color: rgb(255,129,57);
+	border: 1px solid rgb(255,129,57)
+}
+
+
+/*home section Start*/
+
+.content-home2{
+	height: 90vh;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.home-heading{
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 74px;
+}
+
+.home-span{
+	color: rgb(255,129,57);
+}
+
+.para-home{
+	font-size: 13px;
+	font-weight: 500;
+	color: rgba(255,255,255,0.42);
+	max-width: 400px;
+	line-height: 24px;
+	margin: 14px 0px;
+}
+
+.home-links{
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	border: 1px solid rgba(36,193,255);
+	background-color: rgba(36,193,255);
+	margin: 20px 0px;
+	margin-right: 7px;
+	border-radius: 50px;
+	padding: 10px 37px;
+	font-size: 14px;
+	font-weight: 600;
+	transition: 0.2s ease;
+}
+
+.btn-2{
+	border: 1px solid rgb(36,193,255);
+	color: rgb(36,193,255);
+	background-color: transparent;
+}
+
+.home-links:hover{
+	background-color: transparent;
+	color: rgb(255,129,57);
+	border: 1px solid rgb(255,129,57)!important
+}
+
+.img-home{
+	margin-right: 20px;
+	width: 500px;
+
 }
