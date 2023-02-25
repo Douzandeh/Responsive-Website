@@ -140,3 +140,17 @@ body{
 	width: 500px;
 
 }
+
+/* about Section Css*/
+
+.about-us-container{
+	width: 100%;
+	height: 80vh;
+}
+
+.about-us{
+	width: 100%;
+	height: 320px;
+	background-color: rgb(54,54,54);
+	margin-top: 140px;
+}
