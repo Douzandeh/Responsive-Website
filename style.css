@@ -154,3 +154,80 @@ body{
 	background-color: rgb(54,54,54);
 	margin-top: 140px;
 }
+
+.content-about{
+	padding: 10px 38px;
+}
+
+.heading-about{
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: rgb(255,129,57);
+	margin: 10px 0px;
+	margin-bottom: 34px;
+	position: relative;
+}
+
+.heading-about::after{
+	content: '';
+	position: absolute;
+	left: 0px;
+	bottom: -8px;
+	background-color: rgb(255,129,57);
+	width: 46px;
+	height: 2px;
+
+}
+
+.para-about{
+	font-size: 13px;
+	font-weight: 500;
+	color: rgb(255,255,255,0.695);
+	line-height: 21px;
+	margin: 25px 0px;
+}
+
+.link-about{
+	text-decoration: none;
+	text-transform: uppercase;
+	border: 1px solid rgba(255,129,57,0.5);
+	color: rgb(255,129,57);
+	display: inline-block;
+	font-size: 11px;
+	font-weight: 600;
+	padding: 8px 22px;
+	position: relative;
+	z-index: 22;
+}
+
+.link-about:hover{
+	color: white;
+}
+
+.span-about{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: rgb(255,129,57);
+	width: 0%;
+	height: 100%;
+	z-index: -1;
+	transition: 0.4s ease-in;
+
+}
+
+.link-about:hover .span-about{
+ width: 100%;
+
+}
+
+.fa-arrow-right{
+	color: rgb(255,129,57);
+	font-size: 11px;
+	margin-left: 5px;
+}
+
+.fa-arrow-right:hover{
+	color: white;
+}
