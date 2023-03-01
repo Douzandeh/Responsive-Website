@@ -153,6 +153,7 @@ body{
 	height: 320px;
 	background-color: rgb(54,54,54);
 	margin-top: 140px;
+	position: relative;
 }
 
 .content-about{
@@ -230,4 +231,12 @@ body{
 
 .fa-arrow-right:hover{
 	color: white;
+}
+
+.img-about{
+	height: 360px;
+	width: 53%;
+	position: absolute;
+	top: -20px;
+	right: 15px;
 }
