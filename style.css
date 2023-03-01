@@ -240,3 +240,43 @@ body{
 	top: -20px;
 	right: 15px;
 }
+
+/* Product Section css */
+
+.product-category{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	padding: 4px;
+}
+
+.heading-product{
+	font-size: 34px;
+	color: rgb(255,129,57);
+	margin-bottom: 120px;
+	position: relative;
+}
+
+.heading-product::after{
+	content: '';
+	position: absolute;
+	left: 0px;
+	bottom: -8px;
+	background-color:rgb(255,129,57);
+	width: 56px;
+	height: 2px;
+}
+
+.card-product{
+	padding: 14px 10px;
+	background-color: #242424 !important;
+
+}
+
+.img-card{
+	height: 190px !important;
+	
+}
