@@ -555,3 +555,17 @@ body{
 	color: rgba(255,255,255,0.918);
 	margin: 16px 0px;
 }
+
+footer{
+	background-color: rgb(4,4,4);
+	margin: 0px 0px !important;
+	height: 10vh;
+	margin-top: 30px !important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.para-footer{
+	margin: 0px 0px;
+}
